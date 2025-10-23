@@ -1,18 +1,18 @@
-//function something(){
-   // alert("someone clicked button");
-//}
-//something();
+function something(){
+   alert("someone clicked button");
+}
+something();
 
-// function makegreen(){
-// document.getElementById("mainpart")
-// .style.backgroundColor="green";
-// }
-// function setbutton(){
-// document.getElementById("mainpart")
-// .style.backgroundColor="blue";
-// document.getElementById("bluebutton")
-// .style.backgroundColor="aqua";
-// }
+function makegreen(){
+document.getElementById("mainpart")
+.style.backgroundColor="green";
+}
+function setbutton(){
+document.getElementById("mainpart")
+.style.backgroundColor="blue";
+document.getElementById("bluebutton")
+.style.backgroundColor="aqua";
+}
 
 // let x,y=1;
 // console.log(x);
