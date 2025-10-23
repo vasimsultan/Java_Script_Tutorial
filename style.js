@@ -34,15 +34,6 @@
 // document.writeln("Thsi is use document.write mathod "
 // );
 
-// const foo="Hello!";
-// const say=foo.concat("Vasim");
-// alert(say);
-
-// const ton="hi my name is ton";
-// const pot=ton.replace("hi","Hello!");
-// alert(ton);
-// alert(pot);
-
 // let mm="hello_vs";
 // let hm="hello_vs".slice(-5);
 
