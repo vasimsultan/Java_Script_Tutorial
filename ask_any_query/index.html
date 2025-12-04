@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f0f0f0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+        }
+        
+        .question-box {
+          background-color: #fff;
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgba(0,0,0,0.1);
+          padding: 20px;
+          width: 400px;
+        }
+        
+        .question-box h2 {
+          font-size: 1.5rem;
+          margin-top: 0;
+        }
+        
+        .question {
+          margin-bottom: 10px;
+        }
+        
+        .question label {
+          display: block;
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+        
+        .question input[type="text"], 
+        .question textarea {
+          width: 100%;
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 1rem;
+        }
+        
+        .question textarea {
+          height: 100px;
+        }
+        
+        .submit-btn {
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 4px;
+          cursor: pointer;
+          font-size: 1rem;
+        }
+        
+        .submit-btn:hover {
+          background-color: #0056b3;
+        }
+      </style>
+
+    
+
+</head>
+<body>
+  <!-- <h1>This is Youtube Class Project</h1> -->
+    <!-- <H1>This is javaScript Page</H1> -->
+    <!-- <script>
+
+
+
+
+// let number=parseInt(prompt("Enter any Number"));
+// for(i=1;i<=10;i++)
+//     {
+//         document.getElementById('Multiplication Table').innerHTML += '${number} * ${i} = ${number*i}';
+//     }
+    </script> -->
+
+ <!-- <div class="app">
+    <h1>Stay Hungrry and Foolish</h1>
+    <span>Stive-Job</span>
+
+</div>  -->
+
+
+ <div class="question-box">
+    <h2>Ask a Question</h2>
+    <form id="question-form">
+      <div class="question">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="question">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="question">
+        <label for="message">Your Question:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Submit Question</button>
+    </form>
+  </div> 
+
+
+    <!-- how to load any page & image without refresh new page in brouser=========================== -->
+<!-- 
+    <h1>we are learning ajax</h1>
+    <a href="./home.html">Home</a>
+    <div id="container"></div>
+    <button onclick="loadHome()">Load Home</button>
+    <button id="jbtn">JqueryHome</button>
+
+     <script>
+        function loadHome(){
+            var req = new XMLHttpRequest();
+
+            req.open('GET',"./data.json");
+            req.onreadystatechange=function(){
+                // states are of 5 types 
+                // 0,1,2,3,4
+                if(this.readyState==4 && this.status==200){
+                    // console.log(this.responseText);
+                   let abc= JSON.parse(this.responseText)
+                  //  console.log(abc)
+                  document.write(abc);
+                    document.getElementById('container').innerHTML=this.responseText
+                }
+            }; 
+
+                   req.send(); -->
+        <!-- }
+    </script>   --> 
+    <!-- <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="./index.js"></script>
+  <!-- <script src-="./yout.js"></script> -->
+
+</body>
+</html>

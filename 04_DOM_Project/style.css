@@ -1,0 +1,26 @@
+/* .div{
+    height:100px;
+    width:100px;
+    color: red;
+    background-color: aqua;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+} */
+
+  /* ----------------------  new code stated hare --------------------- */
+
+  .bg-black{
+    background-color: black;
+    color: white;
+  }

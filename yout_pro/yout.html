@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>This is Yout Tutorial Project ...............</h1><br><br>
+<!-- 
+   
+ <div id="div1"> 
+    <h3>this is heading tag</h3>
+    <p>this is paragraph</p>
+    <p>this id paragraph</p>
+    <p>thid is paragraph</p>
+    <h3>this is heading</h3>
+    <p>this is paragraph</p>
+    <p>this is paragraph</p>
+    <h3>this is heading</h3>
+    <p>this is paragraph</p>
+    <p>this is paragraph</p>
+ </div> 
+
+<script> 
+    let div1 = document.getElementById('div1');
+    let ele = document.getElementsByTagName("h3");
+        for(let i=0;i< ele.length; i++){
+             ele[i].innerHTML = " Hello";
+        }
+
+</script> -->
+
+  <!-- how to select parent element ----------------------------- -->
+
+
+<!-- <ul>
+    <li id="intro">list 1</li>
+    <li>list 2</li>
+    <li>list 3</li>
+    <li>list 4</li>
+</ul>
+<script>
+    let elm= document.getElementById("intro");
+    // let prt= elm.parentElement;
+    let prt = document.getElementsByTagName("li");
+    for(let i=0; i< prt.length;i++){
+        prt[i].innerHTML = " mvs code wala";
+    }
+
+    // prt.innerHTML="vs code wala"; 
+    console.log(prt);
+</script> -->
+
+<!-- how to select child element in by js----------------------- -->
+
+<!-- <ul id="intr">
+    <li>list 1</li>
+    <li>list 2</li>
+    <li>list 3 </li>
+    <li>list 4</li>
+</ul>
+<script>let elm= document.getElementById("intr"); -->
+
+<!-- // let childs= elm.firstElementChild;   // this is for check first child 
+
+// and if we want to check last child so change this element------------
+// let childs= elm.lastElementChild;
+
+// 
+let childs=elm.children; -->
+
+<!-- <ul>
+    <li>list 1</li>
+    <li id="intro">list 2</li>
+    <li>list 3</li>
+    <li>list 4</li>
+</ul>
+
+<script>
+     let elm =document.getElementById("intro");
+    //  let childs = elm.previousElementSibling;
+    let childs = elm.nextElementSibling;
+console.log(childs); -->
+
+<!-- </script> -->
+
+<!-- HTML code change by javascript --------------- -->
+<!-- 
+<div id="intro">
+    <p>This is Paragraph use for Inner HTML </p>
+
+</div> -->
+<!-- <script>
+    let elm= document.getElementById("intro");
+//  let enner= elm.innerHTML;
+// elm.innerHTML= "<h1> This is Heading Teg </h1>";
+
+
+// and if we want to add new element in html so we use "appendChild" attribute in js page.
+ let h1 =document.createElement('h1');
+
+ let text=document.createTextNode('this is additional program element');
+
+ elm.appendChild(h1);
+
+
+
+// console.log(enner);
+</script> -->
+
+<!-- Remove any child element by javascript-----------------  -->
+
+<!-- <ul id="ull">
+    <li>Heading</li>
+    <li>Paragraph</li>
+    <li>PDF</li>
+    <li>List</li>
+</ul>
+
+<script>
+let parent = document.getElementById("ull");
+// let  elm= parent.firstElementChild;
+
+let elm =parent.firstElementChild.nextElementSibling;
+
+// parent.removeChild(elm);
+
+document.body.removeChild(parent);
+    </script> -->
+
+<!-- 
+    <ul id="ull">
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Feture</li>
+
+    </ul> -->
+
+        <!-- if we want to copy or clone any element so we use this method-------------- -->
+
+    <!-- <script>
+        let ulls= document.getElementById('ull');
+        let cloneElm= ulls.cloneNode(true);
+
+        // if we want to change cloned element id so we use this method===========
+        // variable.idname----  this is syntext
+
+        cloneElm.id=" unoderlist";
+
+        console.log(cloneElm);
+
+        document.body.appendChild(cloneElm);
+
+
+    </script> -->
+
+<script src="./yout.js"></script>
+</body>
+</html>
